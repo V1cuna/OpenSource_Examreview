@@ -1,2 +1,4 @@
 # Fk_Cuit_IShomework
-For someone who likes learning tech and doesn't want to waste time
+Just for someone who likes learning tech.
+
+Codework is important and necessary,practice means perfect.
