@@ -1,4 +1,4 @@
-# OpenSource_CUIT
+# OpenSource_Examreview for c u 1 T
 Just for someone who likes learning tech.
 
 Codework is important and necessary,practice means perfect.
