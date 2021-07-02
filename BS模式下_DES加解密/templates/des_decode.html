@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+  <title>解密</title>
+
+<body>
+{% if de %}
+    <p>明文:</p>{{ de }}
+{% else %}
+  <form method="post" action="/decode" method="POST">
+     <p>密文: <input type = "text" name = "cipher" style="width:600px; height:100px"/></p>
+     <p>密钥: <input type = "text" name = "key" style="width:600px; height:100px"/></p>
+     <p><input type = "submit" value = "解密" /></p>
+  </form>
+{% endif %}
+</body>
+</html>

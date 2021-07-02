@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <title>加密</title>
+<body>
+{% if en %}
+    <p>密文base:</p>{{ en }}
+    <p>密文hex:</p>{{ en2 }}
+{% else %}
+  <form method="post" action="/encode" method="POST">
+     <p>明文: <input type = "text" name = "text" style="width:600px; height:100px"/></p>
+     <p>密钥: <input type = "text" name = "key" style="width:600px; height:100px"/></p>
+      <p>随机生成:</p>{{ str }}
+     <p><input type = "submit" value = "加密" /></p>
+  </form>
+{% endif %}
+</body>
+</html>
